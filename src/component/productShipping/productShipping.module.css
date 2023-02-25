@@ -1,0 +1,60 @@
+@import url('../../font.css');
+@import url('../../reset.css');
+.a11y{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  /* polygon */
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+.container{
+  border-bottom: 1px solid #DEE0E3;
+  padding: 16px 0;
+  font-family: 'SpoqaHanSansNeo-Regular';
+}
+
+.courierDelivery::after {
+content: "|";
+color: #DEE0E3;
+margin: 0 5px;
+}
+.courierDelivery {
+  display: inline;
+  width: 52px;
+  height: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  color: #333333;
+}
+.shippingPrice{
+  display: inline;
+  font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: -0.005em;
+color: #333333;
+margin-right: 2px;
+}
+.shippingPayment{
+  display: inline;
+  color: #6B90DC;
+  font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+}
+.shippingUnit{
+  margin: 0;
+  margin-top: 8.5px;
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: -0.005em;
+color: #999999;
+}

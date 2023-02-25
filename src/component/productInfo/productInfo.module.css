@@ -1,0 +1,71 @@
+@import url('../../font.css');
+@import url('../../reset.css');
+.a11y{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+.container{
+  border-bottom: 1px solid #DEE0E3;
+  position: relative;
+  font-family: 'SpoqaHanSansNeo-Regular';
+}
+
+.titleBox{
+  margin-top: 199px;
+}
+.title {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  display: block;
+  line-height: 23.4px;
+  margin: 0 ;
+
+}
+
+.productImg {
+  border:1px solid #DEE0E3;
+  width: 100%;
+  height: 183px;
+  background: url("../../assetes/product.png") no-repeat center;
+  background-size: cover;
+  order: 0;
+  position: absolute;
+  top: 0;
+}
+
+.priceContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.discountPercentage{
+  color:#6B90DC;
+  font-weight: 700;
+  font-size:24px;
+  line-height: 24px;
+}
+
+.priceBox del{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  color: #999999;
+}
+
+.priceBox strong{
+  color: #333333;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  margin-left: 6px;
+}
