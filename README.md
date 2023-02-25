@@ -12,5 +12,7 @@
 
 <li> 배송 관련 상세정보 팝업 </li>
 <li> 키보드 접근 </li>
+  
+ ![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/107671084/221377040-e1a27535-aaea-44d0-a8ae-6db46ca03f85.gif)
 </ol>
-![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/107671084/221377040-e1a27535-aaea-44d0-a8ae-6db46ca03f85.gif)
+
