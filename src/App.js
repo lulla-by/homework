@@ -10,7 +10,7 @@ import Counter from './component/counter/Counter';
 
 function App() {
   let [count, setCount] = useState(1);
-  let price= 6370;
+  let price = 6370;
   let [toolState, setToolState] = useState(false);
 
   const plusCounter = () => {
