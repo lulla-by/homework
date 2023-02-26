@@ -37,7 +37,7 @@ const Price = ({tooltipHandler,toolState,tooltipToFalseHandler,count,totalPrice}
       {count == 0 ? (
         <button aria-label="비활성화 상태의 구매하기버튼" role="button" className={styles.purchseButton} disabled></button>
       ) : (
-        <button aria-label="활성화된 상태의 구매하기버튼" role="button" className={styles.purchseButton} onClick={()=>{console.log("hit")}}></button>
+        <button aria-label="활성화된 상태의 구매하기버튼" role="button" className={styles.purchseButton}></button>
       )}
     </section>
   );
